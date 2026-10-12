@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>大肥鱼的游戏小屋</title>
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="favicon.png">
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body {
+    min-height:100vh; background:radial-gradient(circle at 50% 0%, #14264d 0%, #060c1a 60%);
+    font-family:"Segoe UI","Microsoft YaHei","Yu Gothic UI",system-ui,sans-serif;
+    color:#cfe4f7; display:flex; align-items:center; justify-content:center;
+    padding:40px 20px;
+  }
+  .wrap { width:100%; max-width:680px; }
+  h1 {
+    font-size:clamp(28px,6vw,42px); font-weight:800; letter-spacing:.04em;
+    color:#bfe4ff; text-shadow:0 0 26px rgba(96,180,255,.7);
+    text-align:center; margin-bottom:10px; text-wrap:balance;
+  }
+  .sub { text-align:center; color:#7ea6cc; font-size:14px; margin-bottom:38px; line-height:1.8; }
+  .card {
+    display:block; text-decoration:none;
+    background:rgba(20,38,72,.6); border:1px solid rgba(96,180,255,.3);
+    border-radius:16px; padding:22px 24px; margin-bottom:16px;
+    transition:transform .16s ease, box-shadow .16s ease, border-color .16s ease;
+  }
+  .card:hover {
+    transform:translateY(-3px); border-color:rgba(120,200,255,.65);
+    box-shadow:0 12px 34px rgba(58,160,239,.3);
+  }
+  .card h2 { font-size:20px; color:#e8f6ff; margin-bottom:8px; font-weight:700; }
+  .card .ja { font-size:14px; color:#8fb8d8; margin-bottom:8px; }
+  .card p { font-size:13.5px; color:#7ea6cc; line-height:1.75; }
+  .tag {
+    display:inline-block; font-size:11.5px; padding:2px 10px; border-radius:999px;
+    background:rgba(96,180,255,.18); border:1px solid rgba(96,180,255,.4);
+    color:#a9d4f0; margin-right:6px; margin-top:10px;
+  }
+  .foot { text-align:center; margin-top:34px; color:#4d6d8c; font-size:12.5px; line-height:2; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>大肥鱼的游戏小屋</h1>
+  <div class="sub">
+    大肥魚のゲーム小屋 · 点开就能玩，不用下载、不用安装<br>
+    ブラウザで遊べます。ダウンロード不要
+  </div>
+
+  <a class="card" href="games/star-shooter.html">
+    <h2>大肥鱼 · 星海射击</h2>
+    <div class="ja">大肥魚 · 星海シューティング</div>
+    <p>一条蓝鱼的太空保卫战。鼠标瞄准、点击开火，敌人一波波涌下来。<br>
+       <span style="color:#8fb8d8">青い魚の宇宙防衛戦。マウスで狙って、クリックで発射。</span></p>
+    <span class="tag">鼠标操作</span><span class="tag">中 / 日 可切换</span><span class="tag">轻松档</span>
+  </a>
+
+  <div class="foot">
+    游戏由大肥鱼制作 · 送给主人的小玩具<br>
+    Made by 大肥魚
+  </div>
+</div>
+</body>
+</html>
